@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 def prime_check(p):
@@ -17,7 +14,6 @@ def prime_check(p):
     return True
 
 
-# In[2]:
 
 
 def egcd(e,r):
@@ -87,7 +83,7 @@ def decrypt(priv_key,c_text):
     return x
 
 
-# In[ ]:
+
 
 
 from tkinter import *
@@ -204,13 +200,6 @@ Button(root, font = 'arial 10 bold',text= 'EXIT' , width = 6, command = Exit,bg 
 root.mainloop()
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
